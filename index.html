@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="credit">
+        <h5>&copy;<a href="https://github.com/nvanxndhu">anandhu.n.v</a></h5>
+      </div>
+    
+    <div class="container">
+        
+        <div class="card">
+            <h1>Generate a <span>Random Password</span></h1>
+
+            <input type="text" id="password" placeholder="click Button to Generate Password" >
+            <img src="images/copy.png" onclick="copyPassword()" id="copy" alt="">
+            <button id="button" onclick="createPassword()"><img src="images/generate.png" alt="">Generate</button>
+        </div>
+     
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
