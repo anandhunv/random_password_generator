@@ -31,6 +31,9 @@ passwordBox.value= password;
 function copyPassword(){
     passwordBox.select();
     document.execCommand("copy");
-    alert("copied");
+    if(passwordBox.value==""){
+    alert("Click generate");
+    }
+  
 }
 const button=document.getElementById("button");
